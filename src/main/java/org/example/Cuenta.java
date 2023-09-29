@@ -11,12 +11,10 @@ public class Cuenta {
         this.saldo+=cantidad;
     }
     public synchronized void retirar(double cantidad){
-        if (saldo >= cantidad) {
+
             saldo -= cantidad;
             System.out.println("Retirando "+cantidad);
-        } else {
-            System.out.println("Saldo insuficiente para retirar " + cantidad + " euros.");
-        }
+
     }
     public synchronized double getSaldo(){
         return this.saldo;
