@@ -2,7 +2,7 @@
 [Autor: Luis González González
 ](https://github.com/LuisGonzalez2002/SistemaFinTechLuisGonzalez.git)https://github.com/LuisGonzalez2002/SistemaFinTechLuisGonzalez.git
 
-Programa en java lo siguiente: Imagina que eres parte del equipo de desarrollo de un emergente negocio FinTech. Tu compañía está construyendo un nuevo sistema bancario y necesitas garantizar que el sistema puede manejar simultáneamente múltiples transacciones bancarias de alta frecuencia sin comprometer la integridad de los datos.
+Imagina que eres parte del equipo de desarrollo de un emergente negocio FinTech. Tu compañía está construyendo un nuevo sistema bancario y necesitas garantizar que el sistema puede manejar simultáneamente múltiples transacciones bancarias de alta frecuencia sin comprometer la integridad de los datos.
 
 Para probar esto, estás encargado de construir una simulación en Java que genere procesos concurrentes que efectúen depósitos y retiros en una cuenta bancaria, y verificar que el saldo final es el esperado después de todas las transacciones.
 
@@ -34,18 +34,16 @@ Rúbrica para evaluar el Sistema FinTech de Prueba de Estrés Bancaria
 El programa ejecuta correctamente las operaciones de depósito y retiro en la cuenta: 20 puntos
 El programa asegura que el saldo final de la cuenta es el esperado después de todas las transacciones: 10 puntos
 El programa maneja correctamente las condiciones de carrera y otros problemas de concurrencia: 10 puntos
-
 2. Uso de la Concurrencia y el Paralelismo (30 puntos)
 
 El programa utiliza adecuadamente los hilos para ejecutar transacciones en paralelo: 10 puntos
 El programa sincroniza adecuadamente los métodos y bloques críticos para evitar problemas de concurrencia: 10 puntos
 El programa utiliza adecuadamente los constructores de procesos y otros mecanismos de concurrencia en Java: 10 puntos
-
 3. Estructura y Estilo del Código (20 puntos)
 
 El código está bien organizado y sigue las convenciones de codificación de Java: 10 puntos
 El código está bien comentado y los comentarios son útiles y descriptivos: 10 puntos
-
 4. Pruebas y Robustez (10 puntos)
 
 El programa ha sido probado con diferentes conjuntos de datos y ha demostrado su robustez: 10 puntos
+Calificación total: 100 puntos
